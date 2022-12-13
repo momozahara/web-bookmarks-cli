@@ -1,5 +1,5 @@
 # WEB-BOOKMARKs-CLI
-Open website by name that you picked using cli.
+Open website by name that you choose using cli.
 
 ## Installation
 ### Remote
