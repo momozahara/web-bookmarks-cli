@@ -10,6 +10,6 @@ pub fn init() -> Command {
                 .arg(Arg::new("target").required(true))
         )
         .subcommand(Command::new("remove").arg(Arg::new("name").required(true)))
-        .arg(Arg::new("open"))
+        .arg(Arg::new("open").required(true))
         .args_conflicts_with_subcommands(true)
 }
